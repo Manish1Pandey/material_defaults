@@ -1,0 +1,48 @@
+name: material_defaults
+description: Public, context-aware access to the private Material 3 widget defaults (ButtonStyle, ChipThemeData, InputDecoration...), generated from Flutter's own token data.
+version: 0.1.0
+homepage: https://github.com/Manish1Pandey/material_defaults
+repository: https://github.com/Manish1Pandey/material_defaults
+issue_tracker: https://github.com/Manish1Pandey/material_defaults/issues
+topics:
+  - material
+  - theme
+  - material-design
+  - design-tokens
+  - widgets
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+  # The defaults are exact for the Flutter version recorded in
+  # MaterialDefaults.tokenVersion (3.41.8); older frameworks compute different
+  # defaults, so earlier SDKs are deliberately not allowed.
+  flutter: ">=3.41.0"
+
+screenshots:
+  - description: Gallery of every Material 3 default exposed by MaterialDefaults (iOS, light).
+    path: screenshots/ios_gallery_light.png
+  - description: FilledButton defaults resolved per widget state (iOS, dark).
+    path: screenshots/ios_filled_button_dark.png
+  - description: InputDecoration defaults with text styles and colors (iOS, light).
+    path: screenshots/ios_input_decoration_light.png
+  - description: Stock widgets next to pixel-identical widgets built from MaterialDefaults (iOS, light).
+    path: screenshots/ios_custom_widgets_light.png
+  - description: Stock widgets next to pixel-identical widgets built from MaterialDefaults (iOS, dark).
+    path: screenshots/ios_custom_widgets_dark.png
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
