@@ -1,7 +1,7 @@
 name: material_defaults
 description: Public, context-aware access to the private Material 3 widget defaults (ButtonStyle, ChipThemeData, InputDecoration...), generated from Flutter's own token data.
 version: 0.1.0
-homepage: https://github.com/Manish1Pandey/material_defaults
+homepage: https://flutterdev.in/packages/material_defaults/
 repository: https://github.com/Manish1Pandey/material_defaults
 issue_tracker: https://github.com/Manish1Pandey/material_defaults/issues
 topics:

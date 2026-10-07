@@ -202,6 +202,12 @@ dart run tool/generate.dart            # uses FLUTTER_ROOT or `flutter` on PATH
 dart run tool/generate.dart --check    # exit 1 if lib/src/generated is stale
 ```
 
+## Links
+
+- **Documentation and live demo:** [flutterdev.in/packages/material_defaults](https://flutterdev.in/packages/material_defaults/)
+- **More Flutter packages:** [flutterdev.in](https://flutterdev.in)
+- **Learn data structures & algorithms in Dart:** [Algoistan](https://algoistan.flutterdev.in)
+
 ## License
 
 MIT © 2026 Manish Kumar Panday. Generated/copied framework code is
