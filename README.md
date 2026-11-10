@@ -7,6 +7,10 @@ and `_InputDecoratorDefaultsM3`.
 Solves [flutter/flutter#130135](https://github.com/flutter/flutter/issues/130135)
 ("Expose M3 defaults", labelled *would be a good package*).
 
+![Expanding FilledButton in the gallery shows every Material 3 default per state; changing the seed colour and switching to dark mode updates the values, and the Custom tab shows widgets built from them](screenshots/demo.gif)
+
+*The example app on Flutter web: expand a component to read its Material 3 defaults per state, change the seed colour or switch to dark mode and the values follow the theme, then the Custom tab compares stock widgets with ones built from `MaterialDefaults`.*
+
 <p>
   <img src="screenshots/ios_filled_button_dark.png" width="260" alt="FilledButton defaults per state, dark">
   <img src="screenshots/ios_custom_widgets_light.png" width="260" alt="Stock widgets next to pixel-identical widgets built from MaterialDefaults">

@@ -1,6 +1,6 @@
 name: material_defaults
 description: Public, context-aware access to the private Material 3 widget defaults (ButtonStyle, ChipThemeData, InputDecoration...), generated from Flutter's own token data.
-version: 0.1.1
+version: 0.1.2
 homepage: https://flutterdev.in/packages/material_defaults/
 repository: https://github.com/Manish1Pandey/material_defaults
 issue_tracker: https://github.com/Manish1Pandey/material_defaults/issues
@@ -19,6 +19,8 @@ environment:
   flutter: ">=3.41.0"
 
 screenshots:
+  - description: "Animated: expanding a component shows its Material 3 defaults; seed colour and dark mode update them."
+    path: screenshots/demo.gif
   - description: Gallery of every Material 3 default exposed by MaterialDefaults (iOS, light).
     path: screenshots/ios_gallery_light.png
   - description: FilledButton defaults resolved per widget state (iOS, dark).
